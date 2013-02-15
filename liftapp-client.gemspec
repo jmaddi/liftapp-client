@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Liftapp::Client::VERSION
 
-  gem.add_development_dependency 'httparty'
-  gem.add_development_dependency 'nokogiri'
-  gem.add_development_dependency 'webmock'
+  gem.add_dependency 'httparty'
+  gem.add_dependency 'nokogiri'
+  gem.add_dependency 'webmock'
 end
