@@ -1,6 +1,6 @@
 # Liftapp::Client
 
-TODO: Write a gem description
+Ruby library to access the Lift.do API. Since there is not yet an official API, this library uses the undocumented mobile app API.
 
 ## Installation
 
@@ -18,7 +18,28 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+##### Request your profile_hash
+```ruby
+client = Liftapp::Client.new(email: 'neo@matrix.com', password: 'whiterabbit')
+data = client.login()
+puts data['profile_hash']
+```
+
+##### Request your subscribed habits
+```ruby
+client = Liftapp::Client.new(email: 'neo@matrix.com', password: 'whiterabbit')
+data = client.dashboard
+puts data['subscriptions'].inspect
+```
+
+##### Request checkin data for your habit
+```ruby
+client = Liftapp::Client.new(profile_hash: 'e7fcd2db926273e895ef')
+data = client.checkin_data('3280')
+puts data[:checkins].inspect
+puts data[:'habit-name']
+```
+
 
 ## Contributing
 
