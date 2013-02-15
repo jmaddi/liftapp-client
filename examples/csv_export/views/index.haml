@@ -1,0 +1,23 @@
+%h3 Lift.do Data Exporter
+%form.well.form-horizontal#userForm{'data-bind' => 'submit: login'}
+  .control-group
+    %label.control-label{for: 'inputEmail'} Email
+    .controls
+      %input.input-large#inputEmail{type: 'text', placeholder: 'Email', 'data-bind' => 'value: email'}
+  .control-group
+    %label.control-label{for: 'inputPassword'} Password
+    .controls
+      %input.input-large#inputPassword{type: 'password', placeholder: 'Password', 'data-bind' => 'value: password'}
+  .control-group
+    .controls
+      %button.btn.btn-primary#btnLogin{'data-loading-state' => 'Loading...'} Load Habits
+      
+
+%table.table
+  %tbody{'data-bind' => 'foreach: subscriptions()'}
+    %tr
+      %td{'data-bind' => 'text: habit.name'}
+      %td
+        %a.pull-right{'data-bind' => 'attr: {href: "/checkins/" + user.profile_hash() + "/" + habit.id()}'}
+          %i.icon-download-alt
+          Download Checkins

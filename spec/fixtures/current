@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: must-revalidate, private, max-age=0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 15 Feb 2013 01:09:00 GMT
+Etag: "ec1be5d13e941f0a7b3cb64c70401da1"
+Server: nginx
+Set-Cookie: _lift_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTczNjljMzc3MWZkODk4M2JiNDU0MWIwZTIzNmU4NmI1BjsAVEkiDHVzZXJfaWQGOwBGaQKpgw%3D%3D--9fa549a44860e76f110b1ac58a73fd87cce1929a; path=/; expires=Fri, 15-Mar-2013 00:09:00 GMT; HttpOnly
+X-Rack-Cache: miss
+X-Runtime: 0.108068
+X-Ua-Compatible: IE=Edge,chrome=1
+transfer-encoding: chunked
+Connection: keep-alive
+
+{"id":33705,"name":"Neil Anderson","picture_url":"http://profile.ak.fbcdn.net/hprofile-ak-snc6/260854_100003561549613_94631864_q.jpg","profile_url":"http://www.lift.do/users/e7fcd2db926273e895ef","profile_hash":"e7fcd2db926273e895ef","email":"neo@matrix.com","stats":{"total_checkin_count":92,"first_checkin_date":"2013-02-12T23:52:50Z"},"networks":["facebook"],"share_on":[{"name":"twitter","defaults_on":false,"auth_mode":"none"}]}

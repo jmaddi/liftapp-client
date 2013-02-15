@@ -1,0 +1,18 @@
+%html
+  %head
+    %title Lift.do CSV exporter
+    %link{rel: 'stylesheet', type: 'text/css', href: '/bootstrap.min.css'}
+    :css
+      body {
+        padding-top:30px;
+      }
+  %body
+    .container
+      .row
+        .span12
+          =yield
+    %script{src: '/js/knockout-2.2.1.js'}
+    %script{src: '/js/knockout.mapping-latest.js'}
+    %script{src: 'http://code.jquery.com/jquery-1.9.1.min.js'}
+    %script{src: '/js/bootstrap.min.js'}
+    %script{src: '/application.js'}

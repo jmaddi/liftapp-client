@@ -1,0 +1,1614 @@
+HTTP/1.1 200 OK
+Cache-Control: must-revalidate, private, max-age=0
+Content-Type: text/html; charset=utf-8
+Date: Fri, 15 Feb 2013 01:15:22 GMT
+Etag: "16a61cccc850d737499fa84417bd2f01"
+Server: nginx
+Set-Cookie: _lift_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJThhNmIxNWVkNTZhYzNhZmYzZmFjZDZhOWVlZDM0OTMxBjsAVEkiDHVzZXJfaWQGOwBGaQKpg0kiEF9jc3JmX3Rva2VuBjsARkkiMVNwRGdXVmlPdmJNZWNhS0tLdDNwNll4T2FwWVhNZGhSZnpqVWRrRGI2dWs9BjsARg%3D%3D--7227b561aa409c18eae8edf26608880bc32129c0; path=/; expires=Fri, 15-Mar-2013 00:15:22 GMT; HttpOnly
+X-Rack-Cache: miss
+X-Runtime: 0.123870
+X-Ua-Compatible: IE=Edge,chrome=1
+Content-Length: 38471
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+  <head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+      <title>Write for Jonathan Maddison</title>
+      <meta name="description" content="Lift helps you track and achieve habits through data visualization, streaks, and community support.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <!-- load in local version of jQuery if loading it from the CDN failed -->
+    <script>window.jQuery || document.write('\x3Cscript src="/assets/jquery.min.js">\x3C/script>')</script>
+    <script src="/assets/application-188ea5567e35bdc4cd17a9c8dd3e8f82.js" type="text/javascript"></script>
+    <script type="text/javascript">
+  $(document).ready(function() {
+
+      var $freqGraph = $('.frequency-graph');
+      $freqGraph.parent().scrollLeft($freqGraph.width());
+
+      $('.pop-up-menu').hover(function(event) {
+                  $(this).children('ul').show('fast');
+              },
+              function(event) {
+                  $(this).children('ul').hide('fast');
+              });
+
+    trackEvent('Habit View');
+    trackLinks("#profile-habit-download-button", "Click Profile Habit Page Download Button");
+  });
+</script>
+
+    <link href="/assets/application-c60b8226312e2552573a544af772cee0.css" media="screen" rel="stylesheet" type="text/css" />
+    
+    
+    
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="SpDgWViOvbMecaKKKt3p6YxOapYXMdhRfzjUdkDb6uk=" name="csrf-token" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25282941-1']);
+      _gaq.push(['_setDomainName', 'lift.do']);
+      _gaq.push(['_setAllowHash', false]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <script type="text/javascript">(function(c,a){var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//api.mixpanel.com/site_media/js/api/mixpanel.2.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g=
+a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1;window.mixpanel=a})(document,window.mixpanel||[]);
+
+mixpanel.init("379e9e289e971f797ec12a38cb506863");
+
+mixpanel.identify('33705');
+mixpanel.name_tag('Jonathan Maddison');
+
+var mixpanelProperties = {
+    'current_user_session' : true,
+    'app_store' : true,
+    'mobile' : false,
+    'admin' : false,
+    'referrer': document.referrer
+};
+</script>
+  </head>
+  <body class="">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=141840792619754";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav">
+            <li class="dropdown">
+              <a href="/" class="dropdown-toggle nav-profile" data-target="#" data-toggle="dropdown">
+                  <div class="profile-image"><img alt="260854_100003561549613_94631864_q" src="http://profile.ak.fbcdn.net/hprofile-ak-snc6/260854_100003561549613_94631864_q.jpg" /></div>
+                  &nbsp;<span>Jonathan Maddison</span>
+                  <b class="caret"></b>
+</a>              <ul class="dropdown-menu" role="menu">
+                <li><a href="/users/e7fcd2db926273e895ef?tab=stats">My Habits</a></li>
+                <li><a href="/users/e7fcd2db926273e895ef/2054">Exercise</a></li>
+                <li><a href="/users/e7fcd2db926273e895ef/3943">Meet someone new</a></li>
+                <li><a href="/users/e7fcd2db926273e895ef/71452">Organize social event</a></li>
+                <li><a href="/users/e7fcd2db926273e895ef/33364">Contribute to open source</a></li>
+                <li><a href="/users/e7fcd2db926273e895ef/2829">Keep in touch with friends</a></li>
+                <li><a href="/users/e7fcd2db926273e895ef/2111">Test Lift</a></li>
+                <li><a href="/users/e7fcd2db926273e895ef/3280">Write</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav pull-right">
+            <li class="dropdown">
+              <a href="/" class="dropdown-toggle nav-friends" data-target="#" data-toggle="dropdown">
+                  <i class='nav-icon nav-icon-friends'></i>
+                  &nbsp;<span>Friends</span>
+                  <b class="caret"></b>
+</a>              <ul class="dropdown-menu" role="menu">
+                <li><a href="/activity">Activity</a></li>
+                <li><a href="/friendships">Friends</a></li>
+                <li><a href="/invitations/new">Invite Friends</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="/" class="dropdown-toggle nav-settings" data-target="#" data-toggle="dropdown">
+                  <i class='nav-icon nav-icon-settings'></i>
+                  &nbsp;<span>Settings</span>
+                  <b class="caret"></b>
+</a>              <ul class="dropdown-menu" role="menu">
+                <li><a href="/settings">Settings</a></li>
+                <li><a href="/reminders">Reminders</a></li>
+                <li><a href="mailto:feedback@lift.do">Send Feedback</a></li>
+                <li><a href="/logout">Sign Out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="primary_container" id="users" class="profile_challenge">
+      
+      
+
+  <div class="container" style="margin: 0 auto;">
+
+    <div class="profile profile-habit">
+      <a class="profile-image" href="/users/e7fcd2db926273e895ef"><img src="http://profile.ak.fbcdn.net/hprofile-ak-snc6/260854_100003561549613_94631864_q.jpg" /></a>
+      <div class="profile-info">
+        <div class="profile-name"><a href="/users/e7fcd2db926273e895ef">Jonathan Maddison</a>
+          <div class="social-icons">
+            
+            <a class="facebook-icon" href="http://facebook.com/100003561549613" id="facebook_link_a" target="_blank" title="View Facebook Profile"></a>
+          </div>
+        </div>
+        <h1 class="profile-habit-name">Write</h1>
+      </div>
+    </div>
+
+
+  <ul id="profile-tabs" class="nav nav-tabs" style="margin-bottom: 0; padding-left: 70px; font-weight: bold; font-size: 1.1em;">
+    <li class="active"><a href="#profile-stats-single" data-toggle="tab">Stats</a></li>
+    <li><a href="#profile-calendar" data-toggle="tab">Calendar</a></li>
+    <li><a href="#profile-notes" data-toggle="tab">Notes</a></li>
+  </ul>
+  <div id="profile-content" class="tab-content profile-habit-content">
+    <div id="profile-stats-single" class="tab-pane active">
+      <div class="challenge-graph-single">
+        <span class="name"></span>
+<span class="badges">
+
+<span class="badge-total"><i class="icon-ok icon-white"></i>62  checkins</span>
+</span>
+
+        <span class="frequency-graph frequency-graph-weekly">
+    <span class="grid">
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class="checked "></li></ul>
+        <ul><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class=" "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class="checked "></li><li class="checked "></li></ul>
+    </span>
+    <ul class="labels">
+        <li>09/23</li>
+        <li>09/30</li>
+        <li>10/07</li>
+        <li>10/14</li>
+        <li>10/21</li>
+        <li>10/28</li>
+        <li>11/04</li>
+        <li>11/11</li>
+        <li>11/18</li>
+        <li>11/25</li>
+        <li>12/02</li>
+        <li>12/09</li>
+        <li>12/16</li>
+        <li>12/23</li>
+        <li>12/30</li>
+        <li>01/06</li>
+        <li>01/13</li>
+        <li>01/20</li>
+        <li>01/27</li>
+        <li>02/03</li>
+        <li>02/10</li>
+    </ul>
+</span>
+
+      </div>
+      <h4 style="text-align: center;">Frequency per week</h4>
+
+      <div class="challenge-graph-single">
+        <span class="frequency-graph frequency-graph-monthly">
+    <span class="grid">
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li><li class="checked "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li></ul>
+        <ul><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class=" "></li><li class="checked "></li><li class="checked "></li></ul>
+    </span>
+    <ul class="labels">
+        <li>Sep</li>
+        <li>Oct</li>
+        <li>Nov</li>
+        <li>Dec</li>
+        <li>Jan</li>
+        <li>Feb</li>
+    </ul>
+</span>
+
+      </div>
+      <h4 style="text-align: center;">Frequency per month</h4>
+    </div>
+
+    <div id="profile-calendar" class="tab-pane">
+      <h3>Calendar</h3>
+      <div class="tab-inner">
+        <div class="calendar" style="padding: 0 10px;">
+         <h3>February 2013</h3>
+<table class="cal-month">
+  <thead><tr>
+    <th>Su</th>
+    <th>Mo</th>
+    <th>Tu</th>
+    <th>We</th>
+    <th>Th</th>
+    <th>Fr</th>
+    <th>Sa</th>
+  </tr></thead>
+  <tbody>
+  <tr>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          1
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          2
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          3
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          4
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          5
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          6
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          7
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          8
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          9
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          10
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          11
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          12
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          13
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          14
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          15
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          16
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          17
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          18
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          19
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          20
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          21
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          22
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          23
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          24
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          25
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          26
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          27
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          28
+          
+         </div>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+  </tr>
+  </tbody>
+</table>
+<h3>January 2013</h3>
+<table class="cal-month">
+  <thead><tr>
+    <th>Su</th>
+    <th>Mo</th>
+    <th>Tu</th>
+    <th>We</th>
+    <th>Th</th>
+    <th>Fr</th>
+    <th>Sa</th>
+  </tr></thead>
+  <tbody>
+  <tr>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          1
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          2
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          3
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          4
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          5
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          6
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          7
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          8
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          9
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          10
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          11
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          12
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          13
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          14
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          15
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          16
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          17
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          18
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          19
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          20
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          21
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          22
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          23
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          24
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          25
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          26
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          27
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          28
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          29
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          30
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          31
+          
+         </div>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+  </tr>
+  </tbody>
+</table>
+<h3>December 2012</h3>
+<table class="cal-month">
+  <thead><tr>
+    <th>Su</th>
+    <th>Mo</th>
+    <th>Tu</th>
+    <th>We</th>
+    <th>Th</th>
+    <th>Fr</th>
+    <th>Sa</th>
+  </tr></thead>
+  <tbody>
+  <tr>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          1
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          2
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          3
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          4
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          5
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          6
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          7
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          8
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          9
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          10
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          11
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          12
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          13
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          14
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          15
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          16
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          17
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          18
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          19
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          20
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          21
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          22
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          23
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          24
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          25
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          26
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          27
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          28
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          29
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          30
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          31
+          
+         </div>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+  </tr>
+  </tbody>
+</table>
+<h3>November 2012</h3>
+<table class="cal-month">
+  <thead><tr>
+    <th>Su</th>
+    <th>Mo</th>
+    <th>Tu</th>
+    <th>We</th>
+    <th>Th</th>
+    <th>Fr</th>
+    <th>Sa</th>
+  </tr></thead>
+  <tbody>
+  <tr>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          1
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          2
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          3
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day checked ">
+          4
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          5
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          6
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          7
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          8
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          9
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          10
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day checked ">
+          11
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          12
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          13
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          14
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          15
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          16
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          17
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day checked ">
+          18
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          19
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          20
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          21
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          22
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          23
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          24
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day checked ">
+          25
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          26
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          27
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          28
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          29
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          30
+          
+         </div>
+      </td>
+      <td>
+      </td>
+  </tr>
+  </tbody>
+</table>
+<h3>October 2012</h3>
+<table class="cal-month">
+  <thead><tr>
+    <th>Su</th>
+    <th>Mo</th>
+    <th>Tu</th>
+    <th>We</th>
+    <th>Th</th>
+    <th>Fr</th>
+    <th>Sa</th>
+  </tr></thead>
+  <tbody>
+  <tr>
+      <td>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          1
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          2
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          3
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          4
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          5
+          <div>.</div>
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          6
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day checked ">
+          7
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          8
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          9
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          10
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          11
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          12
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          13
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day checked ">
+          14
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          15
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          16
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          17
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          18
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          19
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          20
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day checked ">
+          21
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          22
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          23
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          24
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          25
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          26
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          27
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day checked ">
+          28
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          29
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          30
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          31
+          
+         </div>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+  </tr>
+  </tbody>
+</table>
+<h3>September 2012</h3>
+<table class="cal-month">
+  <thead><tr>
+    <th>Su</th>
+    <th>Mo</th>
+    <th>Tu</th>
+    <th>We</th>
+    <th>Th</th>
+    <th>Fr</th>
+    <th>Sa</th>
+  </tr></thead>
+  <tbody>
+  <tr>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          1
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          2
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          3
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          4
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          5
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          6
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          7
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          8
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          9
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          10
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          11
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          12
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          13
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          14
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          15
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          16
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          17
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          18
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          19
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          20
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          21
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          22
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day  ">
+          23
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          24
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          25
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          26
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          27
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day  ">
+          28
+          
+         </div>
+      </td>
+      <td>
+         <div class="cal-day checked ">
+          29
+          
+         </div>
+      </td>
+  </tr>
+  <tr>
+      <td>
+         <div class="cal-day checked ">
+          30
+          
+         </div>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+  </tr>
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="profile-notes" class="tab-pane calendar-notes">
+      <h3>Notes</h3>
+      <div class="tab-inner">
+      <ul class="notes-list">
+                <li>
+  <div class="note-date">
+    <small>Oct</small>
+    <strong>5</strong>
+    <small>2012</small>
+  </div>
+  <div class="note-content">
+      Gratitude journal already giving me a more positive perspective :)
+  </div>
+</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    </div>
+    
+    
+  <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","a688898eb6",163201,"IlpWRxFeCA0ERBpDFgRHSxwTQwsHCFpQaQYJVFRfBl8DBA==",0,120,new Date().getTime(),"","","","",""]);</script></body>
+</html>
+
