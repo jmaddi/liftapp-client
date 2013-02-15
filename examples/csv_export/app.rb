@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'haml'
 require 'coffee-script'
 require 'liftapp-client'
 

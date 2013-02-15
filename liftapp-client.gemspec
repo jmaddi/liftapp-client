@@ -17,5 +17,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'httparty'
   gem.add_dependency 'nokogiri'
-  gem.add_dependency 'webmock'
+
+  gem.add_development_dependency 'webmock'
 end
