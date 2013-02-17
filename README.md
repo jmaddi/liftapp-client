@@ -1,4 +1,5 @@
-# Liftapp::Client
+# Liftapp::Client [![Build Status](https://travis-ci.org/jmaddi/liftapp-client.png)](https://travis-ci.org/jmaddi/liftapp-client)
+
 
 Ruby library to access the Lift.do API. Since there is not yet an official API, this library uses the undocumented mobile app API.
 
