@@ -12,7 +12,7 @@ get '/' do
 end
 
 post '/dashboard.json' do
-  client = Liftapp::Client.new(email: params[:email], password: params[:password])
+  client = Liftapp::Client.new(params[:email], params[:password])
   content_type :json
   client.dashboard.to_json
 end

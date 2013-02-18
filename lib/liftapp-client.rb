@@ -2,7 +2,6 @@ require 'httparty'
 require 'json'
 require 'nokogiri'
 require 'date'
-require 'pry'
 
 require "liftapp-client/version"
 
