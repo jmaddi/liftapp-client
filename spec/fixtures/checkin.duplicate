@@ -1,0 +1,13 @@
+HTTP/1.1 400 Bad Request
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Sun, 17 Feb 2013 10:44:22 GMT
+Server: nginx
+Set-Cookie: _lift_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWFlYzE4NzBiMGFhMTQ5ZjM1Njg1NGUwMWI3OTNjMzM5BjsAVEkiDHVzZXJfaWQGOwBGaQKpgw%3D%3D--bea7765b4bd0fccfcccdc59146d07fde9cf768bf; path=/; expires=Sun, 17-Mar-2013 09:44:22 GMT; HttpOnly
+X-Rack-Cache: invalidate, pass
+X-Runtime: 0.111679
+X-Ua-Compatible: IE=Edge,chrome=1
+transfer-encoding: chunked
+Connection: keep-alive
+
+{"errors":["checkin.duplicate"],"checkin":{"id":3634581,"timezone":"+11:00","title":"checked in for the 9th time","date":"2013-02-16T10:37:46Z","props":[],"habit":{"id":2111,"name":"Test Lift"}}}

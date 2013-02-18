@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: application/json; charset=utf-8
+Date: Sun, 17 Feb 2013 11:25:20 GMT
+Etag: "7f982bedfddf56e85c2447f5ec5f2621"
+Server: nginx
+Set-Cookie: _lift_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTBhMzNhMjhlYWZiNmFiODJhMjEyNWQ4YzRkMWU2ZTkyBjsAVEkiDHVzZXJfaWQGOwBGaQKpgw%3D%3D--b0959a542f7c491f52a003162dc1d3bf409d1e16; path=/; expires=Sun, 17-Mar-2013 10:25:20 GMT; HttpOnly
+X-Rack-Cache: invalidate, pass
+X-Runtime: 0.168671
+X-Ua-Compatible: IE=Edge,chrome=1
+transfer-encoding: chunked
+Connection: keep-alive
+
+{"checkin":{"subscription":{"stats":{"total_checkins":9,"frequency":[{"start_time":"2013-02-17T00:00:00Z","count":1},{"start_time":"2013-02-10T00:00:00Z","count":4},{"start_time":"2013-02-03T00:00:00Z","count":4},{"start_time":"2013-01-27T00:00:00Z","count":0},{"start_time":"2013-01-20T00:00:00Z","count":0},{"start_time":"2013-01-13T00:00:00Z","count":0},{"start_time":"2013-01-06T00:00:00Z","count":0}]}}}}

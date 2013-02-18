@@ -1,0 +1,14 @@
+HTTP/1.1 201 Created
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: application/json; charset=utf-8
+Date: Sun, 17 Feb 2013 10:44:37 GMT
+Etag: "924d9e2c48e3136e31edcdb0131a195c"
+Server: nginx
+Set-Cookie: _lift_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTYxOTIzZjQzOWRkNDY5NTgwMTFhNmFiNmNjOWRjNWJiBjsAVEkiDHVzZXJfaWQGOwBGaQKpgw%3D%3D--da9267c31278f7003dc102eace1b940663635cbd; path=/; expires=Sun, 17-Mar-2013 09:44:37 GMT; HttpOnly
+X-Rack-Cache: invalidate, pass
+X-Runtime: 0.556411
+X-Ua-Compatible: IE=Edge,chrome=1
+Content-Length: 588
+Connection: keep-alive
+
+{"checkin":{"id":3634619,"client_uuid":null,"timezone":"-7:00","title":"checked in for the 9th time","date":"2013-02-16T10:37:46Z","habit":{"id":2111,"name":"Test Lift"},"user":{"id":33705},"subscription":{"stats":{"total_checkins":10,"frequency":[{"start_time":"2013-02-17T00:00:00Z","count":1},{"start_time":"2013-02-10T00:00:00Z","count":5},{"start_time":"2013-02-03T00:00:00Z","count":4},{"start_time":"2013-01-27T00:00:00Z","count":0},{"start_time":"2013-01-20T00:00:00Z","count":0},{"start_time":"2013-01-13T00:00:00Z","count":0},{"start_time":"2013-01-06T00:00:00Z","count":0}]}}}}
