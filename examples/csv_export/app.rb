@@ -21,8 +21,8 @@ get '/checkins/:user/:habit' do
   content_type :plain
   client = Liftapp::Client.new(profile_hash: params[:user])
   data   = client.checkin_data(params[:habit])
-  output = data[:checkins].map { |d| d.strftime('%Y-%m-%d') }
-  output.unshift data[:'habit-name']
+  output = data['checkins'].map { |d| d.strftime('%Y-%m-%d') }
+  output.unshift data['habit-name']
   output.join("\n")
 end
 

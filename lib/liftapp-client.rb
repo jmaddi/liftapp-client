@@ -1,38 +1,48 @@
 require 'httparty'
 require 'json'
 require 'nokogiri'
+require 'date'
+require 'pry'
 
 require "liftapp-client/version"
 
 module Liftapp
+
   class Client
     attr_accessor :profile_hash
 
-    def initialize(args)
-      @email     = args[:email] if args[:email]
-      @password     = args[:password] if args[:password]
-      @profile_hash = args[:profile_hash] if args[:profile_hash]
-      if (@email && @password)
-        @auth_options = {basic_auth: {username: @email, password: @password}}
-      end
-    end
+    def initialize(email, password)
+      @user_agent = 'Lift/0.27.1779 CFNetwork/609.1.4 Darwin/13.0.0'
 
-    def login
-      response = HTTParty.get('https://www.lift.do/i/0/users/current', @auth_options)
+      @auth_options = {basic_auth: {username: email, password: password}}
+      
+      @options = {}
+      @options.merge!(@auth_options)
+      @options.merge!({headers: {'User-Agent' => @user_agent}})
+
+      response = HTTParty.get('https://www.lift.do/i/0/users/current', @options)
       @profile_hash = response['profile_hash']
-      response
     end
 
     def dashboard
-      HTTParty.get('https://www.lift.do/api/v2/dashboard', @auth_options)
+      HTTParty.get('https://www.lift.do/api/v2/dashboard', @options)
+    end
+
+    def checkin(habit_id, time=DateTime.now)
+      data = {body: {habit_id: habit_id, date: time.to_s}}
+      HTTParty.post('https://www.lift.do/api/v1/checkins', @options.merge(data))
+    end
+
+    def checkout(checkin_id)
+      HTTParty.delete('https://www.lift.do/api/v1/checkins/%d' % checkin_id)
     end
 
     def habit_activity(habit_id)
-      HTTParty.get('https://www.lift.do/api/v2/habits/' + habit_id + '/activity', @auth_options)
+      HTTParty.get('https://www.lift.do/api/v2/habits/%d/activity' % habit_id, @options)
     end
 
     def checkin_data(habit_id)
-      response = HTTParty.get('https://www.lift.do/users/' + @profile_hash + '/' + habit_id)
+      response = HTTParty.get('https://www.lift.do/users/%s/%d' % [@profile_hash, habit_id])
 
       doc = Nokogiri::HTML(response.body)
 
@@ -49,14 +59,10 @@ module Liftapp
         end
       end
       {
-        :'habit-name' => doc.search('.profile-habit-name').first.content,
-        :checkins     => checkins.sort
+        'habit-name' => doc.search('.profile-habit-name').first.content,
+        'checkins'     => checkins.sort
       }
     end
-
-    def to_s
-      "Liftapp (#@email)"
-    end
-
   end
+
 end
