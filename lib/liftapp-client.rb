@@ -7,8 +7,11 @@ require "liftapp-client/version"
 
 module Liftapp
 
+  class AccessDenied < StandardError; end
+
   class Client
     attr_accessor :profile_hash
+    attr_reader :email
 
     def initialize(email, password)
       @user_agent = 'Lift/0.27.1779 CFNetwork/609.1.4 Darwin/13.0.0'
@@ -20,6 +23,10 @@ module Liftapp
       @options.merge!({headers: {'User-Agent' => @user_agent}})
 
       response = HTTParty.get('https://www.lift.do/i/0/users/current', @options)
+
+      raise AccessDenied, 'Invalid email/password' if response.response.code == '401'
+
+      @email        = response['email']
       @profile_hash = response['profile_hash']
     end
 
