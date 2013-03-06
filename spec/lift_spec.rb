@@ -44,4 +44,12 @@ describe Liftapp::Client do
     data['checkin']['id'].should be > 0
   end
 
+  it 'sets name and picture_url' do
+    stub_request(:get, "https://neo@matrix.com:whiterabbit@www.lift.do/i/0/users/current").
+      to_return(File.new(File.expand_path File.dirname(__FILE__) + '/fixtures/current'))
+    client = Liftapp::Client.new('neo@matrix.com', 'whiterabbit')
+    client.picture_url.should == 'http://profile.ak.fbcdn.net/hprofile-ak-snc6/260854_100003561549613_94631864_q.jpg'
+    client.name.should == 'Neil Anderson'
+  end
+
 end

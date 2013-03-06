@@ -10,7 +10,9 @@ module Liftapp
   class AccessDenied < StandardError; end
 
   class Client
-    attr_accessor :profile_hash
+    attr_reader :profile_hash
+    attr_reader :name
+    attr_reader :picture_url
     attr_reader :email
 
     def initialize(email, password)
@@ -28,6 +30,8 @@ module Liftapp
 
       @email        = response['email']
       @profile_hash = response['profile_hash']
+      @picture_url  = response['picture_url']
+      @name         = response['name']
     end
 
     def dashboard
