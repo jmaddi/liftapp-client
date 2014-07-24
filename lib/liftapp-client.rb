@@ -35,7 +35,7 @@ module Liftapp
     end
 
     def dashboard
-      HTTParty.get('https://www.lift.do/api/v2/dashboard', @options)
+      HTTParty.get('https://www.lift.do/api/v3/dashboard', @options)
     end
 
     def checkin(habit_id, time=DateTime.now)
