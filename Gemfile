@@ -6,10 +6,5 @@ gemspec
 gem 'httparty'
 gem 'json'
 gem 'nokogiri'
-gem 'date'
+# gem 'date'
 
-group :development, :test, :continuous_integration do
-  gem 'rake'
-  gem 'rspec'
-  gem 'webmock'
-end
