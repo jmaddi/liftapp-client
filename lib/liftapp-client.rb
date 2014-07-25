@@ -1,6 +1,6 @@
 require 'httparty'
-# require 'json'
 require 'nokogiri'
+# require 'json'
 # require 'date'
 
 require "liftapp-client/version"
@@ -36,19 +36,13 @@ module Liftapp
       @profile_id   = response['id']
     end
 
+    # Working
     def dashboard
       HTTParty.get('https://www.lift.do/api/v3/dashboard', @options)
     end
     
-    # Changed from v1 to v3 and it checked me into weird habit (Warm Water & Lemon)
-    def checkin(habit_id, time=DateTime.now)
-      data = {body: {habit_id: habit_id, date: time.to_s}}
-      HTTParty.post('https://www.lift.do/api/v3/checkins', @options.merge(data))
-    end
-
-    #  BE CAREFUL!!! Need to try with checkin_id... 
-    def checkout(checkin_id)
-      HTTParty.delete('https://www.lift.do/api/v3/checkins/%d' % checkin_id)
+    def view_habits
+      # puts or maps to hash?
     end
     
     # Working, shows all recent checkins from all following
@@ -56,7 +50,18 @@ module Liftapp
       HTTParty.get('https://www.lift.do/api/v2/habits/%d/activity' % habit_id, @options)
     end
     
-    # Not working currently (page has changed format)
+    # NOT WORKING Changed from v1 to v3 and it checked me into weird habit (Warm Water & Lemon)
+    def checkin(habit_id, time=DateTime.now)
+      data = {body: {habit_id: habit_id, date: time.to_s}}
+      HTTParty.post('https://www.lift.do/api/v3/checkins', @options.merge(data))
+    end
+
+    # NOT WORKING
+    def checkout(checkin_id)
+      HTTParty.delete('https://www.lift.do/api/v3/checkins/%d' % checkin_id)
+    end
+  
+    # NOT WORKING (page has changed format)
     def checkin_data(habit_id)
       response = HTTParty.get('https://www.lift.do/users/%s/%d' % [@profile_hash, habit_id])
 
