@@ -1,6 +1,10 @@
 require 'webmock/rspec'
 require_relative '../lib/liftapp-client.rb'
 
+# TODO update RSpec from 'should' to ':expect' syntax
+# TODO update stubs
+# TODO add some live API check to notify of API version changes
+
 describe Liftapp::Client do
 
   it 'returns profile_hash' do
