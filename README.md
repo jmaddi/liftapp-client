@@ -2,8 +2,6 @@
 
 Ruby library to access the Lift.do API. Since there is not yet an official API, this library uses the undocumented mobile app API.
 
-For an example of what you can build, see http://lift-export.herokuapp.com/
-
 ## Installation
 
 Add this line to your application's Gemfile:
