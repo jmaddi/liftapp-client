@@ -20,31 +20,31 @@ Or install it yourself as:
 
 ## Usage
 
+##### Initialize a client and log in
+```ruby
+client = Liftapp::Client.new('neo@matrix.com', 'whiterabbit')
+```
+
 ##### Request your profile_hash
 ```ruby
 # Log in with your email/password
-client = Liftapp::Client.new('neo@matrix.com', 'whiterabbit')
 puts client.profile_hash
 ```
 
 ##### Request your subscribed habits
 ```ruby
-client = Liftapp::Client.new('neo@matrix.com', 'whiterabbit')
 data = client.dashboard
-data['subscriptions'].each do |subscription|
-  puts subscription['habit']['name'] + ": " + subscription['habit']['id'].to_s
+data['plans'].each do |plan|
+  puts plan['name'] + ": " + plan['id'].to_s
 end
 
-Nightly survey: 75655
-Write: 3280
-Test Lift: 2111
-Keep in touch with friends: 2829
-Organize social event: 71452
+Cook: 1285
+Connect: 20785
+Create something: 2818
 ```
 
 ##### Request checkin data for your habit
 ```ruby
-client = Liftapp::Client.new('neo@matrix.com', 'whiterabbit')
 data = client.checkin_data('3280')
 puts data['checkins'].inspect
 puts data['habit-name']
@@ -52,10 +52,8 @@ puts data['habit-name']
 
 ##### Checkin to a habit
 ```ruby
-client = Liftapp::Client.new('neo@matrix.com', 'whiterabbit')
 data = client.dashboard
-puts data['subscriptions'][1]['habit']['name']
-habit_id = data['subscriptions'][0]['habit']['id']
+habit_id = data['plans'][1]['habit']['id']
 client.checkin(habit_id)
 ```
 

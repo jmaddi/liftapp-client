@@ -3,7 +3,7 @@ require 'json'
 require 'nokogiri'
 require 'date'
 
-#require "liftapp-client/version"
+require_relative "liftapp-client/version"
 
 module Liftapp
 
@@ -55,7 +55,7 @@ module Liftapp
       HTTParty.get('https://www.lift.do/api/v3/plans/%d/stats' % plan_id, @options)
     end
 
-    def checkin(habit_id, instruction_id, time=DateTime.now)
+    def checkin(habit_id, instruction_id=nil, time=DateTime.now)
       data = {
         body: { habit_id: habit_id, instruction_id: instruction_id, date: time.to_s }
       }
