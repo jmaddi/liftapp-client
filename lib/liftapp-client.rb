@@ -3,7 +3,7 @@ require 'json'
 require 'nokogiri'
 require 'date'
 
-require "liftapp-client/version"
+#require "liftapp-client/version"
 
 module Liftapp
 
@@ -18,11 +18,11 @@ module Liftapp
     def initialize(email, password)
       @user_agent = 'Lift/0.27.1779 CFNetwork/609.1.4 Darwin/13.0.0'
 
-      @auth_options = {basic_auth: {username: email, password: password}}
+      @auth_options = { basic_auth: { username: email, password: password } }
       
       @options = {}
       @options.merge!(@auth_options)
-      @options.merge!({headers: {'User-Agent' => @user_agent}})
+      @options.merge!({ headers: {'User-Agent' => @user_agent }})
 
       response = HTTParty.get('https://www.lift.do/i/0/users/current', @options)
 
@@ -35,20 +35,35 @@ module Liftapp
     end
 
     def dashboard
-      HTTParty.get('https://www.lift.do/api/v2/dashboard', @options)
+      HTTParty.get('https://www.lift.do/api/v4/dashboard', @options)
     end
 
-    def checkin(habit_id, time=DateTime.now)
-      data = {body: {habit_id: habit_id, date: time.to_s}}
-      HTTParty.post('https://www.lift.do/api/v1/checkins', @options.merge(data))
+    def stats
+      HTTParty.get('https://www.lift.do/api/v3/enrollments/stats', @options)
+    end
+
+    def notifications
+      HTTParty.get('https://www.lift.do/api/v3/notifications/', @options)
+    end
+
+    # Example opts limit: 30, offset: 0
+    def plan_questions(plan_id, opts)
+      HTTParty.get('https://www.lift.do/api/v3/plans/%d/questions' % plan_id, @options.merge(query: opts))
+    end
+
+    def plan_stats(plan_id)
+      HTTParty.get('https://www.lift.do/api/v3/plans/%d/stats' % plan_id, @options)
+    end
+
+    def checkin(habit_id, instruction_id, time=DateTime.now)
+      data = {
+        body: { habit_id: habit_id, instruction_id: instruction_id, date: time.to_s }
+      }
+      HTTParty.post('https://www.lift.do/api/v3/checkins', @options.merge(data))
     end
 
     def checkout(checkin_id)
-      HTTParty.delete('https://www.lift.do/api/v1/checkins/%d' % checkin_id)
-    end
-
-    def habit_activity(habit_id)
-      HTTParty.get('https://www.lift.do/api/v2/habits/%d/activity' % habit_id, @options)
+      HTTParty.delete('https://www.lift.do/api/v3/checkins/%d' % checkin_id)
     end
 
     def checkin_data(habit_id)
@@ -56,8 +71,8 @@ module Liftapp
 
       doc = Nokogiri::HTML(response.body)
 
-      month_names  = doc.search('//*[@id="profile-calendar"]/div/div/h3')
-      month_tables = doc.search('#profile-calendar table')
+      month_names  = doc.search('.calendar h3')
+      month_tables = doc.search('#profile-calendar table.cal-month')
       checkins = []
 
       while (!month_names.empty?)
@@ -69,7 +84,7 @@ module Liftapp
         end
       end
       {
-        'habit-name' => doc.search('.profile-habit-name').first.content,
+        'habit-name' => doc.search('.profile-habit-name').first.content.strip,
         'checkins'     => checkins.sort
       }
     end
