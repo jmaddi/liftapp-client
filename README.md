@@ -1,5 +1,4 @@
-# Liftapp::Client [![Build Status](https://travis-ci.org/jmaddi/liftapp-client.png)](https://travis-ci.org/jmaddi/liftapp-client)
-
+# Liftapp::Client [![Gem](https://img.shields.io/gem/v/liftapp-client.svg?style=flat-square)](https://rubygems.org/gems/liftapp-client) [![Travis](https://img.shields.io/travis/jmaddi/liftapp-client.svg?style=flat-square)](https://travis-ci.org/jmaddi/liftapp-client)
 Ruby library to access the Lift.do API. Since there is not yet an official API, this library uses the undocumented mobile app API.
 
 ## Installation
